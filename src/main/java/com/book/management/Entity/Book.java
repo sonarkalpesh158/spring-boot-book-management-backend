@@ -6,6 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
 @Entity
+@Builder
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
