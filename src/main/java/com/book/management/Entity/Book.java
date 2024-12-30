@@ -21,10 +21,8 @@ public class Book {
         this.author = author;
         this.genre = genre;
     }
-
-    public Book() {
+    public Book(){
     }
-
     public Integer getId() {
         return id;
     }
