@@ -21,7 +21,9 @@ public class Book {
         this.author = author;
         this.genre = genre;
     }
-
+    public Book(){
+            System.out.println("Abcd");
+        }
     public Integer getId() {
         return id;
     }
