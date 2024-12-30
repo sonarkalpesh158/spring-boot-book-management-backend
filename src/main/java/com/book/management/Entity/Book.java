@@ -22,9 +22,6 @@ public class Book {
         this.genre = genre;
     }
 
-    public Book() {
-    }
-
     public Integer getId() {
         return id;
     }
