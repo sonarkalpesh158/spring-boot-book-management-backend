@@ -22,7 +22,7 @@ public class Book {
         this.genre = genre;
     }
     public Book(){
-            System.out.println("Abcd");
+            System.out.println("Abcdr");
         }
     public Integer getId() {
         return id;
